@@ -1,0 +1,2 @@
+export const INITIATE_GAME = 'INITIATE_GAME';
+export const SELECT_CHOICE = 'SELECT_CHOICE';
