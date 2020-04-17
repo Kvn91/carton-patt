@@ -1,39 +1,122 @@
 [
   {
     "id": 1,
-    "text": "azertyui lidzjq doqi jzlqidj qzjdljzo",
-    "storyId": 2,
-    "nbCartons": 5
+    "text": "Partir du côté droit de la rue",
+    "storyId": 2
   },
   {
     "id": 2,
-    "text": "aaaaaaaaaaaaaaaa dlajzdljiiiiiiiiiiiii ",
+    "text": "Partir du côté gauche de la rue",
     "storyId": 3
   },
   {
     "id": 3,
-    "text": "jhgdfqizlghd",
-    "storyId": 4,
-    "nbCartons": 3
+    "text": "Faire du lèche-vitrine, vous n’allez certainement pas risquer votre courte vie à l’intérieur",
+    "storyId": 4
   },
   {
     "id": 4,
-    "text": "aaaaaaaaaaaaaqzkdlnqzlaaa dlajzdljiiiiiiiiiiiii ",
+    "text": "Tenter d’entrer. Après tout, YOLO comme disaient vos anciens propriétaires",
     "storyId": 5
   },
   {
     "id": 5,
-    "text": "qzdùkkldzkz, kl,d lkdqzkl,dqzkl,dqz kl,",
+    "text": "Une fois votre besoin assouvi, vous vous forcez à détourner les yeux pour continuer votre chemin",
     "storyId": 6
   },
   {
     "id": 6,
-    "text": "aaaaaaaaaaaaaaaa dlaaaaaaaaaaaajzdljiiiiiiiiiiiii ",
+    "text": "Vous précipiter dans le camion pour sentir, toucher, frôler ces cartons d’un peu plus près. Il y en a surement plein d’autres cachés au fond.",
     "storyId": 7
   },
   {
     "id": 7,
-    "text": "jjjjjjjjjjj jdjjsjdqzjkq ",
+    "text": "Rester à votre place, mater oui, mais sans se faire cramer",
     "storyId": 8
+  },
+  {
+    "id": 8,
+    "text": "Choper 2-3 bricoles qui trainent, les fourrez à l’intérieur de vous, et restez immobile, bien droit",
+    "storyId": 10
+  },
+  {
+    "id": 9,
+    "text": "Tenter de vous faufiler hors du camion",
+    "storyId": 9
+  },
+  {
+    "id": 10,
+    "text": "Continuer votre doux périple",
+    "storyId": 11
+  },
+  {
+    "id": 12,
+    "text": "Mater ce beau pack de 12 Heineken : un classique indémodable",
+    "storyId": 12
+  },
+  {
+    "id": 13,
+    "text": "Le carton de grim là à droite, il vous aguiche",
+    "storyId": 13
+  },
+  {
+    "id": 14,
+    "text": "Vous préférez ces Leffes Rituel au bel emballage bleu roi",
+    "storyId": 14
+  },
+  {
+    "id": 15,
+    "text": "Vous diriger vers un jeune type qui semble porter un uniforme",
+    "storyId": 15
+  },
+  {
+    "id": 16,
+    "text": "Ramper vers une dame à l’air âgée. Une cible facile !",
+    "storyId": 16
+  },
+  {
+    "id": 17,
+    "text": "Lui sauter sur la tête pour l’aveugler, la faire trébucher, et en profiter pour jeter votre regard pervers sur tout le contenu de ses sacs.",
+    "storyId": 17
+  },
+  {
+    "id": 18,
+    "text": "Faire le mort, dans l’espoir qu’elle décide de vous récupérer pour vous emmener chez elle. En général les personnes âgées prennent soin de nous",
+    "storyId": 18
+  },
+  {
+    "id": 19,
+    "text": "Crier ACAB, leur sauter dessus et tenter de les blesser avec votre coin le plus tranchant",
+    "storyId": 19
+  },
+  {
+    "id": 20,
+    "text": "S’ils vous tirent dessus, ils vont faire un carton… Tenter de vous enfuir par la bouche d’égouts",
+    "storyId": 20
+  },
+  {
+    "id": 21,
+    "text": "La curiosité l’emporte, vous diriger vers lui et monter discrètement sur le côté",
+    "storyId": 21
+  },
+  {
+    "id": 22,
+    "text": "Des centaines de cadavres de vos semblables sont entassés dans ce camion, vous préférez passer votre chemin",
+    "storyId": 22
+  },
+  {
+    "id": 23,
+    "text": "Sauter du camion et vous y rendre",
+    "storyId": 23
+  },
+  {
+    "id": 24,
+    "text": "Poursuivre votre chemin",
+    "storyId": 24
+  },
+  {
+    "id": 25,
+    "text": "Vous dirigez vers la zone de recyclage et emboiter le pas à vos semblables",
+    "storyId": 25
   }
 ]

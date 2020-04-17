@@ -13,14 +13,17 @@ const app = (state = initialState, action) => {
 		case INITIATE_GAME:
 			return {
 				...state,
-				tries: (state.tries+1)
+				tries: (state.tries+1),
+				nbCartons: 0
 			};
 		case SELECT_CHOICE:
-			const { choice } = action;
-			if (choice && choice.nbCartons) {
+			const { currentStory } = action;
+			if (currentStory && currentStory.nbCartons) {
+				console.log(currentStory.nbCartons);
+				console.log(state.nbCartons+currentStory.nbCartons);
 					return {
 						...state,
-						nbCartons: (state.nbCartons+choice.nbCartons)
+						nbCartons: (state.nbCartons+currentStory.nbCartons)
 				}
 			}
 			return state;

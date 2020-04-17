@@ -1,43 +1,147 @@
 [
   {
     "id": 1,
-    "text": "L’histoire commence avec le déménagement de ce jeune couple, Alex et Axelle, ou Axelle et Alex je sais plus. Tout s’était plutôt bien passé, mais ce que l’histoire ne nous dit pas, c’est qu’ils abandonnèrent les cartons usagés à la rue. Vous me direz, un carton classique aurait accepté sa condition et attendu d’être ramassé par le premier intéressé venu. Mais ça n’était pas le cas de Patt. ",
+    "text": "L’histoire commence avec le déménagement de ce jeune couple, Alex et Axelle, ou Axelle et Alex je sais plus. Tout s’était plutôt bien passé, mais ce que l’histoire ne nous dit pas, c’est qu’ils abandonnèrent les cartons usagés à la rue. Vous me direz, un carton classique aurait accepté sa condition et attendu d’être ramassé par le premier intéressé venu. Mais ça n’était pas le cas de Patt. Et oui, le carton Patt était spécial, il se différenciait surtout par une chose : il adorait mater d’autres cartons. Hey, chacun sa passion, on n’est pas là pour juger. Et on ne peut pas lui enlever que chez les cartons, il y a tellement de formes, de tailles, de couleurs différentes, y’a de quoi faire si tu as l’esprit pervers et imaginatif.Vous êtes donc aujourd’hui dans la « peau » de Patt, et votre objectif est de mater un maximum d’autres cartons.eté comme une merde près des Buttes Chaumont, un premier choix simple s’offre à vous",
     "choicesIds": [1, 2]
   },
   {
     "id": 2,
-    "text": "AZERTYUIOPPMLKJHGFDSQ",
-    "choicesIds": [3, 4, 5]
-  },
-  {
-    "id": 3,
-    "text": "uhdaz iddzid diuhza dazizdha dziaihudza",
-    "choicesIds": [6, 7]
-  },
-  {
-    "id": 4,
-    "text": "nmkqjnzdmqzdnmqz ndmqzkn ",
+    "text": "Vous longez le trottoir en esquivant quelques flaques d’eau (quoi de pire qu’avoir le carton mouillé). Mais après quelques mètres, en tournant à gauche dans cette ruelle un peu plus sombre, vous vous apercevez trop tard que c’était une mauvaise idée. La bande de punk à chiens qui chill au fond n’a pas l’air commode. D’ailleurs, dès qu’ils vous aperçoient, ils se jettent sur vous. Pour ranger leurs canouches de 8.6 ou se faire une petite nappe, ils vous trouveront bien une utilité.",
     "choicesIds": [],
     "end": "win"
   },
   {
+    "id": 3,
+    "text": "Vous avancez en direction de ce qui semble être un petit supermarché. Il paraît que c’est le paradis pour un carton voyeur. Des rayons entiers d’emballages multicolores, du frais du chaud, tout ce qu’il vous faut.",
+    "choicesIds": [3, 4]
+  },
+  {
+    "id": 4,
+    "text": "Vous n’apercevez pas grand-chose vu d’ici, mais c’est toujours mieux que rien. Les promo sur les schoko-bons vous font de l’oeil, dans leur emballage chatoyant et coloré. Oui, votre esprit pervers apprécie aussi la vue de certains plastiques.",
+    "choicesIds": [5],
+    "nbCartons": 5
+  },
+  {
     "id": 5,
-    "text": "nnnnnnnnnnnnnnnnnnnnnnnnn qzkdjqzqzzzzzzzzz",
-    "choicesIds": [7, 8]
+    "text": "Vous y avez vraiment cru ? A peine passé le coin dans l’enseigne, un vigile vous attrape et vous balance sur une pile de cartons usagés, tous plus meurtris, dégarnis, usés les uns que les autres. Une vraie fosse à cartons, vous ne pouviez pas choisir pire façon de finir votre vie…",
+    "choicesIds": [],
+    "end": "dead"
   },
   {
     "id": 6,
-    "text": "nnnnnnnnnnnnzqd qd qzdsszzzzzzzzzzzzzzz",
-    "choicesIds": []
+    "text": "Vous finissez par tomber sur une scène que vous connaissez bien : un camion rempli à ras bord de cartons de toutes tailles. Des grands, des petits, des larges, des fins, des vieux, des petits, un autre paradis d’la mate, toutes ces courbes, ces ouvertures faciles, et ces autocollants « fragile » qui vous excitent par-dessus tout (il faudrait pas lui casser la vaisselle), il y a de quoi faire pour satisfaire votre perversion sans limite.",
+    "choicesIds": [6, 7]
   },
   {
     "id": 7,
-    "text": "nnnnnnnnnnnnnnnnnnnnnnnnn aaaaaaaaaaaaaaaaaaaaaaaazzzzzzzzzzzzzzzz",
-    "choicesIds": [7, 8]
+    "text": "Vous vous ruez à toute vitesse dans le camion. Comme vous vous y attendiez, c’est un véritable paradis. Sentir tous ces beaux cartons neufs autour de vous vous enivre comme jamais. Mais vous entendez à ce moment des voix humaines se rapprochant.",
+    "choicesIds": [8, 9]
   },
   {
     "id": 8,
-    "text": "nnnnnnnnnnnnnnnnnnnnnnnnn aaaaaaaaaaaaaaaaaaaaaaaazzzzzzzzzzzzzzzz",
-    "choicesIds": []
+    "text": "Vous matez donc avec attention tous ces beaux cartons. Vous pouvez sentir d'ici la fraîcheur du gros scotch, un délice pour vos sens. Mais vous avez quand même un peu plus à accomplir dans votre vie.",
+    "choicesIds": [10],
+    "nbCartons": 8
+  },
+  {
+    "id": 9,
+    "text": "Vous glissez le plus vite possible dehors, mais trop tard, 2 gros déménageurs bien baraques vous voient passer. « Tiens c’est marrant, j’ai l’impression d’avoir déjà vu ce carton ce matin, même autocollant, mêmes marques sur le côté… Bon de toute façon on a finit, plus besoin de toi ». Il vous déchire en deux et vous jette dans un coin…",
+    "choicesIds": [],
+    "end": "dead"
+  },
+  {
+    "id": 10,
+    "text": "La technique semble fonctionner, les 2 déménageurs qui débarquent pour fermer le camion ne font pas attention à vous. Vous roulez pendant 1heure, plus de temps qu’il n’en faut pour ramper dans tout le camion et vous repaître de la vision de tous ces cartons entassés. Une orgie visuelle. Mais finit les bêtises, vous arrivez à destination, et ressortez ni vu ni connu dès qu’ils commencent à vider le camion. Vous ne reconnaissez pas cette ville, mais vous apercevez dans une rue adjacente un autre camion dont vous avez entendu parler, un camion poubelle !",
+    "choicesIds": [21, 22],
+    "nbCartons": 15
+  },
+  {
+    "id": 11,
+    "text": "A quelques mètres de là, vous passez devant le rebeu du coin. Eh, voilà encore une bonne occasion de se rincer l’oeil. Des cageots remplis de fruits, des emballages de riz, de pâtes, des cartons entassés dans les coins, et là, au fond du magasin, votre plaisir coupable : des packs de bière",
+    "choicesIds": [12, 13, 14]
+  },
+  {
+    "id": 12,
+    "text": "Heineken ?? Tu te fous de moi ?? On est pas là pour mater de l’eau. Le proprio de l’épicerie te vois te faufiler, te chope par le coin, t’écrase sans pitié et t’enferme dans sa cave. KARMA",
+    "choicesIds": [],
+    "end": "dead"
+  },
+  {
+    "id": 13,
+    "text": "Mater ces Grimbergen vous laisse un léger goût d’insatisfaction, mais peut importe c’est toujours ça de pris. Vous sortez du magasin et poursuivez votre route, pour apercevoir un plus loin deux personnes, qui ont l’air de s’éviter au moment de se croiser. Quoi, elles ont un virus contagieux ou quoi *rire en carton*",
+    "choicesIds": [15, 16],
+    "nbCartons": 6
+  },
+  {
+    "id": 14,
+    "text": "Très bon choix (le meilleur), les Rituel c’est jamais une déception. Emballage bien pensé, couleurs chatoyantes, un délice pour les yeux. Vous matez, matez, matez à n’en plus finir, vous vous sentez pleinement satisfait, et, votre perversion accomplie, vous comprenez qu’il est maintenant temps pour vous de partir sur cette merveilleuse note finale...",
+    "choicesIds": [],
+    "nbCartons": 6,
+    "end": "win"
+  },
+  {
+    "id": 15,
+    "text": "C’est un livreur Amazon. Vous reconnaissez son uniforme. C’est là que vous revient d’un seul coup en mémoire votre sombre passé. Bringuebalé parmi des centaines, que dis-je des milliers de vos semblables, vous avez été traité pire que du bétail, passé de main en main sans ménagement, pour finir rempli et expédié comme jamais. Vous vous remémorez cet entrepôt lugubre, où vous avez été entreposé des mois et des mois avant d’enfin voir la lumière du jour, tout ça pour être ouvert sauvagement quelques jours plus tard par Timothée qui n’en pouvait plus d’attendre sa PS4. C’est trop d’émotion d’un coup, surtout pour un pauvre carton. Ramené à votre statut inférieur dans ce monde si dur, vous vous roulez en boule, et décidez de ne plus bouger, jusqu’à mourir balayé par les intempéries. Vous aurez au moins réussi une chose : le premier cas diagnostiqué de dépression de carton",
+    "choicesIds": [],
+    "end": "end"
+  },
+  {
+    "id": 16,
+    "text": "Cette vieille dame tire durement deux gros sacs de courses, surement remplis de cartons et emballages de toute sorte. PARFAIT !",
+    "choicesIds": [17, 18]
+  },
+  {
+    "id": 17,
+    "text": "D’un point de vue moral on repassera, mais la technique a fonctionnée. Mamie au sol, ses sacs renversés par terre, vous vous rincez l’oeil une fois de plus. Mais les hurlements de la vieille dame finissent par attirer 3 flics qui patrouillaient dans le coin.",
+    "choicesIds": [19, 20],
+    "nbCartons": 7
+  },
+  {
+    "id": 18,
+    "text": "Comme vous le pensiez elle décide de vous récupérer. Mais à peine arrivé chez elle qu’elle se presse d’entasser en vous toutes sortes d’objets sexuels de toutes formes, tailles, certains n’ayant plus l’air très frais… On sent qu’ils ont presque autant vécus que leur propriétaire. L’arroseur arrosé, cette vision d’horreur est trop pour vous, vous préférez abréger vos souffrances et rampez jusqu’à la cheminé du salon, pour finir en cendres…",
+    "choicesIds": [],
+    "end": "dead"
+  },
+  {
+    "id": 19,
+    "text": "Tu vas faire quoi contre 3 flics armés, sérieusement ? Le combat est plié en moins de deux, et tu finiras recyclé en papier support pour contraventions. CHEH",
+    "choicesIds": [],
+    "end": "dead"
+  },
+  {
+    "id": 20,
+    "text": "Vous fuyez dans cet endroit totalement inconnu. Mais plus vous avancez, plus vous rencontrez de vos semblables, libres et indépendants ! Une communauté de cartons libérés du joug des humains, c’est peut-être plutôt ça finalement, le paradis… Vous décidez de vous installer, fonder une famille et finir paisiblement votre vie ici",
+    "choicesIds": [],
+    "end": "win"
+  },
+  {
+    "id": 21,
+    "text": "Vous roulez à toute allure, le vent dans l’carton, c’est grisant. Sur la route, vous passez devant un terrain vague. Il paraît que c’est un endroit fort plaisant pour un carton.",
+    "choicesIds": [23, 24]
+  },
+  {
+    "id": 22,
+    "text": "Après des heures à ramper dans cette ville, « Levallois » d’après les panneaux, vous désespérez de trouver de quoi mater. Aucun emballage abandonné à l’horizon, pas de SDF dans des abris cartonnés, rien… Cette ville trop propre et ses habitants à l’air un peu trop respectables vous déprime vite. Tout ça pour en arriver là ? Pour couronner le tout, il se met à pleuvoir… Tout espoir vous abandonne, et vous vous laissez imprégner d’eau jusqu’à vous décomposer totalement…",
+    "choicesIds": [],
+    "end": "dead"
+  },
+  {
+    "id": 23,
+    "text": "Les cartons ici sont en piteux états, mais ils sont nombreux, et forts de leurs expériences, de leurs cicatrices, possèdent une espèce de maturité qui plaît à votre esprit pervers. Vous vous rincez avidement les yeux en fantasmant sur leur vie, vous découvrant un nouveau kink… Finalement, cet endroit paraît parfait pour vous installer et finir vos jours",
+    "choicesIds": [],
+    "end": "win",
+    "nbCartons": 20
+  },
+  {
+    "id": 24,
+    "text": "Après un laborieux périple le camion finit par arriver dans un immense bâtiment, vous en avez déjà entendu parler, une usine de recyclage !",
+    "choicesIds": [25]
+  },
+  {
+    "id": 25,
+    "text": "Ce n’est pas une expérience agréable, mais après mûre réflexion, l’idée d’une nouvelle vie vous attire de plus en plus. Vous vous laissez faire, matez les cartons alentours pour satisfaire vos derniers besoins pervers, puis vous sentez vous désagréger petit à petit, pour enfin renaître transformé en… emballage de Xanax. Encore une sacrée vie qui vous attend…",
+    "choicesIds": [],
+    "end": "win",
+    "nbCartons": 15
   }
 ]
