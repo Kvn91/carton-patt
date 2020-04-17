@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "text": "L’histoire commence avec le déménagement de ce jeune couple, Alex et Axelle, ou Axelle et Alex je sais plus. Tout s’était plutôt bien passé, mais ce que l’histoire ne dit pas, c’est qu’ils abandonnèrent les cartons usagés à la rue. Vous me direz, un carton classique aurait accepté sa condition et attendu d’être ramassé par le premier intéressé venu. Mais ça n’était pas le cas de Patt. ",
+    "text": "L’histoire commence avec le déménagement de ce jeune couple, Alex et Axelle, ou Axelle et Alex je sais plus. Tout s’était plutôt bien passé, mais ce que l’histoire ne nous dit pas, c’est qu’ils abandonnèrent les cartons usagés à la rue. Vous me direz, un carton classique aurait accepté sa condition et attendu d’être ramassé par le premier intéressé venu. Mais ça n’était pas le cas de Patt. ",
     "choicesIds": [1, 2]
   },
   {
@@ -17,7 +17,8 @@
   {
     "id": 4,
     "text": "nmkqjnzdmqzdnmqz ndmqzkn ",
-    "choicesIds": []
+    "choicesIds": [],
+    "end": "win"
   },
   {
     "id": 5,

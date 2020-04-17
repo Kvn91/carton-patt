@@ -1,15 +1,50 @@
 import React from 'react'
-import StoryContainer from './StoryContainer'
-import ChoiceContainer from './ChoicesContainer'
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { connect } from 'react-redux'
+import Adventure from '../components/Adventure'
+import AdventureEnd from '../components/AdventureEnd'
+import Home from '../components/Home'
+import { initiateGame } from '../actions/index'
 
-const App = () => (
-  <div className="content-wrapper">
-    <h2>CARTON PATT</h2>
-	  <div className="content">
-	    <StoryContainer />
-	    <ChoiceContainer />
-	  </div>
-  </div>
-);
+const App = ({ currentStory, tries, nbCartons, initiateGame }) => {
+	let adventure;
+	if (currentStory.end) {
+		adventure = <AdventureEnd
+			currentStory={currentStory}
+			tries={tries}
+			nbCartons={nbCartons}
+			onReset={() => initiateGame()}
+		/>;
+	} else {
+		adventure = <Adventure />;
+	}
 
-export default App
+	return (
+		<Router>
+			<div className="content-wrapper">
+				<h2><Link to="/" onClick={() => initiateGame()}>CARTON PATT : L'aventure dont VOUS êtes le carton</Link></h2>
+				<div className="content">
+					<Switch>
+						<Route path="/adventure">
+							{adventure}
+						</Route>
+						<Route path="/">
+							<Home />
+						</Route>
+					</Switch>
+				</div>
+			</div>
+		</Router>
+	)
+};
+
+const mapStateToProps = state => ({
+	currentStory: state.stories.currentStory,
+	tries: state.app.tries,
+	nbCartons: state.app.nbCartons
+});
+
+export default connect(
+	mapStateToProps,
+	{ initiateGame }
+)(App)

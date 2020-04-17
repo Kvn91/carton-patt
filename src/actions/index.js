@@ -12,15 +12,16 @@ export const initiateGame = () => dispatch => (
 	dispatch(initiateGameAction(stories, choices))
 );
 
-const selectChoiceSuccess = (currentStory, currentChoices) => ({
+const selectChoiceSuccess = (choice, currentStory, currentChoices) => ({
 	type: types.SELECT_CHOICE,
+	choice,
 	currentStory,
 	currentChoices
 });
 
-export const selectChoice = storyId => (dispatch, getState) => {
+export const selectChoice = choice => (dispatch, getState) => {
 	const { stories, choices } = getState();
-	const currentStory = stories.byId[storyId];
+	const currentStory = stories.byId[choice.storyId];
 	const currentChoices = [];
 
 	currentStory.choicesIds.forEach(choiceId => {
@@ -29,5 +30,5 @@ export const selectChoice = storyId => (dispatch, getState) => {
 		}
 	});
 
-	dispatch(selectChoiceSuccess(currentStory, currentChoices));
+	dispatch(selectChoiceSuccess(choice, currentStory, currentChoices));
 };

@@ -19,10 +19,7 @@ const byId = (state = {}, action) => {
 const currentStory = ( state = {}, action ) => {
 	switch (action.type) {
 		case INITIATE_GAME:
-			return {
-				...state,
-				...action.stories[0]
-			};
+			return action.stories[0];
 		case SELECT_CHOICE:
 			const { currentStory } = action;
 			if (currentStory) {

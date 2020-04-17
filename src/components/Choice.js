@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types'
 
 const Choice = ({ choice, onChoiceSelected }) => (
   <div className="choiceCard card" onClick={onChoiceSelected}>

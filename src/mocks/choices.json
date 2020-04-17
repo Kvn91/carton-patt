@@ -2,7 +2,8 @@
   {
     "id": 1,
     "text": "azertyui lidzjq doqi jzlqidj qzjdljzo",
-    "storyId": 2
+    "storyId": 2,
+    "nbCartons": 5
   },
   {
     "id": 2,
@@ -12,7 +13,8 @@
   {
     "id": 3,
     "text": "jhgdfqizlghd",
-    "storyId": 4
+    "storyId": 4,
+    "nbCartons": 3
   },
   {
     "id": 4,
