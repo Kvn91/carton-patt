@@ -9,14 +9,14 @@ const AdventureEnd = ({ currentStory, tries, nbCartons, onReset }) => {
 		} else {
 			winMessage = <p>Vous êtes êtes un pervers hors-pair, et devriez peut-être penser à faire carrière...</p>;
 		}
-	} else if (currentStory.end === "end") {
+	} else if (currentStory.end === "dead") {
 		endMessage = <p>Yes, le carton est dead</p>;
 	}
 
 	return (
-		<div>
-			<p>{currentStory.text}</p>
-			{endMessage} {winMessage}
+		<div id="story">
+			<div id="story-text" dangerouslySetInnerHTML={{__html: currentStory.text}}></div>
+			<div>{endMessage} {winMessage}</div>
 			<div id="restart-button">
 				<a className="fat-button" onClick={onReset}>
 					<i class="fas fa-recycle"></i> Recommencer <i class="fas fa-recycle"></i>

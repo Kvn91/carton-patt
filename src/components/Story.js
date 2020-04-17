@@ -4,8 +4,7 @@ const Story = ({story}) => {
 
   return (
     <div id="story" className="row">
-      <div id="story-text">
-	      <p>{story.text}</p>
+      <div id="story-text" dangerouslySetInnerHTML={{__html: story.text}}>
       </div>
     </div>
   )

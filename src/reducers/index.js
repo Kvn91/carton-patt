@@ -19,8 +19,6 @@ const app = (state = initialState, action) => {
 		case SELECT_CHOICE:
 			const { currentStory } = action;
 			if (currentStory && currentStory.nbCartons) {
-				console.log(currentStory.nbCartons);
-				console.log(state.nbCartons+currentStory.nbCartons);
 					return {
 						...state,
 						nbCartons: (state.nbCartons+currentStory.nbCartons)
