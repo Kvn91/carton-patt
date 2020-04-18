@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 const Home = () => (
-	<div id="story">
 		<div id="story-text">
 			<p>Bienvenue dans cette histoire dont vous êtes le héros !</p>
 			<p>Durant cette aventure, vous aurez des choix à faire, parfois complexes, parfois déchirants, de quoi se torturez l'esprit, pire que les pires scènes de Saw wlh</p>
@@ -13,7 +12,6 @@ const Home = () => (
 					Commencer l'aventure
 				</Link>
 			</div>
-		</div>
 	</div>
 );
 

@@ -14,7 +14,7 @@ const AdventureEnd = ({ currentStory, tries, nbCartons, onReset }) => {
 	}
 
 	return (
-		<div id="story">
+		<div>
 			<div id="story-text" dangerouslySetInnerHTML={{__html: currentStory.text}}></div>
 			<div>{endMessage} {winMessage}</div>
 			<div id="restart-button">

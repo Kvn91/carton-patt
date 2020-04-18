@@ -77,19 +77,12 @@ h2 a:hover {
     padding: 10px;
 }
 
-
-
 .content {
     display: flex;
-    align-items: center;
+    align-items: center;s
     justify-content: center;
     flex-direction: column;
     text-align: center;
-}
-
-#story {
-    position: relative;
-    justify-content: center;
     margin-bottom: 25px;
     margin-top: 50px;
 }
