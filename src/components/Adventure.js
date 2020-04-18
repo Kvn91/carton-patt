@@ -3,7 +3,7 @@ import StoryContainer from '../containers/StoryContainer'
 import ChoiceContainer from '../containers/ChoicesContainer'
 
 const Adventure = () => (
-	<div>
+	<div id="story">
 		<StoryContainer />
 		<ChoiceContainer />
 	</div>
