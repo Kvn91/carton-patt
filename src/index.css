@@ -47,10 +47,10 @@ h2 a:hover {
 }
 
 .fat-button {
+    width: auto;
     text-decoration: none;
     color: white;
     position: relative;
-    width: 200px;
     height: 100px;
     margin: 30px;
     top: 0px;

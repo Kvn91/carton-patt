@@ -18,9 +18,9 @@ const AdventureEnd = ({ currentStory, tries, nbCartons, onReset }) => {
 			<div id="story-text" dangerouslySetInnerHTML={{__html: currentStory.text}}></div>
 			<div>{endMessage} {winMessage}</div>
 			<div id="restart-button">
-				<a className="fat-button" onClick={onReset}>
+				<button className="fat-button" onClick={onReset}>
 					<i class="fas fa-recycle"></i> Recommencer <i class="fas fa-recycle"></i>
-				</a>
+				</button>
 			</div>
 		</div>
 	)
